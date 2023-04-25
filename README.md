@@ -2,7 +2,7 @@
 
 ## The interpreter and Faux Racket
 The interpreter was done as assignment questions of CS 146, W23 offering, instructed by Brad Lushman, at the University of Waterloo.   
-(for access to assignment page see the links)
+(for access to assignment page see the links).
 For simplicity, the interpreter was implemented in Racket, and aiming at interpreting a tiny subset of the programming language Racket, we will refer to this language as "Faux Racket".
 
 ## Abstract Syntax Tree of Faux Racket
