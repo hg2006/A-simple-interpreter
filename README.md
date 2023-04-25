@@ -8,7 +8,7 @@ For simplicity, the interpreter was implemented in Racket, and aiming at interpr
 ## Abstract Syntax Tree of Faux Racket
 The Abstract Syntax Tree for Faux Racket below is provided by CS 146 instructor team on assignment page 
 expr =  num
-     |  var
+-    |  var
      |  (+ expr expr)
      |  (* expr expr)
      |  (- expr expr)
