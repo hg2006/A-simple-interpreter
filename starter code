@@ -1,4 +1,4 @@
-// Below is the starter code of the assignment provided by CS 146 instructor team, which is a  a bare-bones Faux Racket interpreter
+// Below is the starter code of the assignment provided by CS 146 instructor team, which is a bare-bones Faux Racket interpreter
 
 #lang racket
 
