@@ -1,0 +1,20 @@
+;; This is provided by CS 146 instructor team on assignment page (for access to assignment page see the links)
+
+  expr	 	=	 	num
+ 	 	|	 	var
+ 	 	|	 	(+ expr expr)
+ 	 	|	 	(* expr expr)
+ 	 	|	 	(- expr expr)
+ 	 	|	 	(/ expr expr)
+ 	 	|	 	(fun (var) expr)
+ 	 	|	 	(expr expr)
+ 	 	|	 	(ifzero expr expr expr)
+ 	 	|	 	(with ((var expr)) expr)
+ 	 	|	 	(rec ((var expr)) expr)
+    |   (seq expr expr)
+    |   (set var expr)
+    |   (box expr)
+    |   (unbox expr)
+    |   (setbox expr expr)
+    
+    
