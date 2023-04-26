@@ -9,7 +9,7 @@ For simplicity, the interpreter was implemented in Racket, and aiming at interpr
 ---
 
 ## Abstract Syntax Tree of Faux Racket
-The Abstract Syntax Tree (presented in Haskell grammar) for Faux Racket below is provided by CS 146 instructor team on assignment page. <br>
+The Abstract Syntax Tree (presented in Haskell grammar) for Faux Racket below is provided by CS 146 instructor team on assignment page. <br> <br>
 _expr_ =  num  <br>
 &emsp; &emsp; |  var  <br>
 &emsp; &emsp; |  (+ _expr_ _expr_) <br>
