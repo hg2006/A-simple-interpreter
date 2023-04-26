@@ -5,6 +5,9 @@ The interpreter was done as assignment questions of CS 146, W23 offering, instru
 <br>
 <br>
 For simplicity, the interpreter was implemented in Racket, and aiming at interpreting a tiny subset of the programming language Racket, we will refer to this language as "Faux Racket".
+<br>
+<br>
+This interpreter __is not reponsible for error handling, user must ensure the Faux Racket progoram being interpreted is syntatically valid.__
 
 ---
 
