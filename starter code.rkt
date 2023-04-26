@@ -1,7 +1,5 @@
 ;; Below is the starter code of the assignment provided by CS 146 instructor team, which is a bare-bones Faux Racket interpreter
 
-```racket
-
 #lang racket
 
 (require test-engine/racket-tests)
@@ -121,5 +119,3 @@
 
 
 (test)
-
-```
