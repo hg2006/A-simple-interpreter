@@ -20,7 +20,7 @@ _expr_ =  num                                                                   
 &emsp; &emsp; |  (fun (var) _expr_)             <br>
 ```fun``` resembles [```lambda```](https://docs.racket-lang.org/guide/lambda.html) in Racket to avoid the use of keyword "lambda" <br>            
 &emsp; &emsp; |  (ifzero _expr_ _expr_ _expr_) <br>
-```ifzero``` is a simplified version of [```if```](https://docs.racket-lang.org/reference/if.html) in Racket. __(if the first expr is evaluated to 0, the second expr will be evaluated, or else the third will be evaluated)__     <br>                               
+```ifzero``` is a simplified version of [```if```](https://docs.racket-lang.org/reference/if.html) in Racket. __If the first expr is evaluated to 0, the second expr will be evaluated, or else the third will be evaluated__     <br>                               
 &emsp; &emsp; |  (with ((var _expr_)) _expr_)  <br>
 ```with``` resembles [```let```](https://docs.racket-lang.org/reference/let.html) in Racket                      <br>                              
 &emsp; &emsp; |  (rec ((var _expr_)) _expr_)   <br>
