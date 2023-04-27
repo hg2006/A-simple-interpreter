@@ -19,7 +19,9 @@ _expr_ =  num                                                                   
 &emsp; &emsp; |  (* _expr_ _expr_)                                                                                                                         <br><br>
 &emsp; &emsp; |  (- _expr_ _expr_)                                                                                                                         <br><br>
 &emsp; &emsp; |  (/ _expr_ _expr_)                                                                                                                         <br><br>
-&emsp; &emsp; |  (_expr_ _expr_)               <br> <br>
+&emsp; &emsp; |  (_expr_ _expr_)                <br>
+Note there could happen to be (2 1), we will let it become a runtime error   
+<br>
 &emsp; &emsp; |  (fun (var) _expr_)             <br>
 ```fun``` resembles [```lambda```](https://docs.racket-lang.org/guide/lambda.html) in Racket to avoid the use of keyword "lambda" <br>            
 &emsp; &emsp; |  (ifzero _expr_ _expr_ _expr_) <br>
