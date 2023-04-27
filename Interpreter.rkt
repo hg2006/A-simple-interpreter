@@ -85,8 +85,6 @@
     ['- -]
     ['/ /]))
 
-
-
 ;; lookup: symbol env -> value
 ;; looks up a substitution in an environment (topmost one)
 
