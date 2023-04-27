@@ -1,7 +1,7 @@
 # An-intepreter-for-Faux-Racket-W23-CS-146
 
 ## The interpreter and Faux Racket
-The interpreter was done as assignment questions of CS 146, W23 offering, instructed by Brad Lushman, at the University of Waterloo. Relevant assignments are [Q5: Recursion](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/1#issue-1687567584), [Q6: Mutation](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/2#issue-1687569446), [Q7: Boxes].
+The interpreter was done as assignment questions of CS 146, W23 offering, instructed by Brad Lushman, at the University of Waterloo. Relevant assignments are [Q5: Recursion](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/1#issue-1687567584), [Q6: Mutation](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/2#issue-1687569446), [Q7: Boxes](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/3#issue-1687569608).
 <br>
 <br>
 For simplicity, the interpreter was implemented in Racket, and aiming at interpreting a tiny subset of the programming language Racket, we will refer to this language as "Faux Racket".
