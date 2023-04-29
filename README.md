@@ -1,4 +1,4 @@
-# An-intepreter-for-Faux-Racket-W23-CS-146
+# An intepreter for Faux Racket, W23 ,CS 146
 
 ## The interpreter and Faux Racket
 This interpreter was done as assignment questions of CS 146, W23 offering, instructed by Brad Lushman, at the University of Waterloo. Relevant assignments are [Q5: Recursion](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/1#issue-1687567584), [Q6: Mutation](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/2#issue-1687569446), [Q7: Boxes](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/3#issue-1687569608).
