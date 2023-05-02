@@ -5,6 +5,7 @@
 
 ;; ------------------------- A bit more to notice ---------------------------------------------------
 
+;; This project is available on Github: https://github.com/hg2006/A-simple-interpreter
 
 ;; To directly obtain the actual result of interpretation an expr, one should use the
 ;; following template (since interpret returns a result that is a struct):
