@@ -1,4 +1,4 @@
-# An intepreter for Faux Racket, W23 ,CS 146
+# An intepreter for Faux Racket, CS 146, W23 
 
 ## Table of Content
 - [The Interpreter and Faux Racket](#the-interpreter-and-faux-racket)
