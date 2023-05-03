@@ -46,7 +46,7 @@ Note there could happen to be (2 1), we will let it become a runtime error.
 ## Environment and Store
 This interpreter uses two layers of mapping, with the environment mapping a variable name to its memory location in the store, and the store being the place where the values are stored (it can thus be viewed as mapping address to values). This model is a good reflection of how actual Racket is implemented by lower level languages. We will discuss below about the logistics of this model. <br>
 ### Env
-If we have narrowed the range of the interpreter a bit more (although the subset of Racket chosen is already small enough), the store would've been unnecessary. Making the environment mapping a variable name directly to its value can perfectly handle everything except for possible aliasing brought by the boxes. Referencing a variable can be easily implemented by a lookup function. On another note, ```set``` can simply change the mapping between the variable name and the corresponding. Apparently, there's no need for another layer of mapping at this stage. <br>
+If we have narrowed the range of the interpreter a bit more (although the subset of Racket chosen is already small enough), the store would've been unnecessary. Making the environment mapping a variable name directly to its value can perfectly handle everything except for possible aliasing brought by the boxes. Referencing a variable can be easily implemented by a lookup function. On another note, ```set``` can simply change the mapping between the variable name and the corresponding value. Apparently, there's no need for another layer of mapping at this stage. <br>
 ### Store
 Consider the following:
 ```racket 
