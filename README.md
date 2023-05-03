@@ -55,5 +55,5 @@ Consider the following:
             (seq (setbox x 5)
                  (unbox y)))))
 ```
-The code above should produce 5 when we unbox y, note there's aliasing between x and y here. This is not achievable with one layer of mapping since with that there's no way to link change in x to change in y. We will thus modify environment to map variables to their locations, this environment is not modified, and does not need to be returned (we do not need to worry about local binding when returning). Furthermore, we will have a store mapping locations to values, values are updated meanwhile locations are not. Aliasing can thus be achieved by mapping two variables to the same location. 
+The code above should produce 5 when we unbox y, note there's aliasing between x and y here. This is not achievable with one layer of mapping since with that there's no way to link change in the boxed content x to change in the boxed content of y. We will thus modify environment to mapping variables to their locations, this environment is not modified, and does not need to be returned (we do not need to worry about local binding when returning). Furthermore, we will have a store mapping locations to values, values are updated while locations are not. Aliasing can thus be achieved by mapping two variables to the same location. 
 
