@@ -20,23 +20,23 @@ _expr_ =  num                                                                   
 &emsp; &emsp; |  (- _expr_ _expr_)                                                                                                                         <br><br>
 &emsp; &emsp; |  (/ _expr_ _expr_)                                                                                                                         <br><br>
 &emsp; &emsp; |  (_expr_ _expr_)                <br>
-Note there could happen to be (2 1), we will let it become a runtime error   
+Note there could happen to be (2 1), we will let it become a runtime error.
 <br>
 &emsp; &emsp; |  (fun (var) _expr_)             <br>
-```fun``` resembles [```lambda```](https://docs.racket-lang.org/guide/lambda.html) in Racket to avoid the use of keyword "lambda" <br>            
+```fun``` resembles [```lambda```](https://docs.racket-lang.org/guide/lambda.html) in Racket to avoid the use of keyword "lambda". <br>            
 &emsp; &emsp; |  (ifzero _expr_ _expr_ _expr_) <br>
-```ifzero``` is a simplified version of [```if```](https://docs.racket-lang.org/reference/if.html) in Racket. __If the first expr is evaluated to 0, the second expr will be evaluated, or else the third will be evaluated__     <br>                               
+```ifzero``` is a simplified version of [```if```](https://docs.racket-lang.org/reference/if.html) in Racket. __If the first expr is evaluated to 0, the second expr will be evaluated, or else the third will be evaluated__.     <br>                               
 &emsp; &emsp; |  (with ((var _expr_)) _expr_)  <br>
 ```with``` resembles [```let```](https://docs.racket-lang.org/reference/let.html) in Racket. Note the syntax of __double brackets__.                     <br>                              
 &emsp; &emsp; |  (rec ((var _expr_)) _expr_)   <br>
-```rec``` resembles [```letrec```](https://docs.racket-lang.org/reference/let.html) in Racket                      <br>                    
+```rec``` resembles [```letrec```](https://docs.racket-lang.org/reference/let.html) in Racket.                      <br>                    
 &emsp; &emsp; |  (seq _expr_ _expr_)           <br>
-```seq``` is a simplified version of [```begin```](https://docs.racket-lang.org/reference/begin.html) in Racket. __Note unlike begin, seq only allows sequencing of two expressions__ <br> <br>
+```seq``` is a simplified version of [```begin```](https://docs.racket-lang.org/reference/begin.html) in Racket. __Note unlike begin, seq only allows sequencing of two expressions__. <br> <br>
 &emsp; &emsp; |  (set var _expr_)             <br>
-```set```is a simplified version of [```set!```](https://docs.racket-lang.org/reference/set_.html) in Racket <br> <br>
+```set```is a simplified version of [```set!```](https://docs.racket-lang.org/reference/set_.html) in Racket. <br> <br>
 &emsp; &emsp; |  (box _expr_)                  <br>
-[```box```](https://docs.racket-lang.org/reference/boxes.html) is the same as in Racket <br> <br>
+[```box```](https://docs.racket-lang.org/reference/boxes.html) is the same as in Racket. <br> <br>
 &emsp; &emsp; |  (unbox _expr_)               <br>
-[ ```unbox```](https://docs.racket-lang.org/reference/boxes.html) is the same as in Racket <br> <br>
+[ ```unbox```](https://docs.racket-lang.org/reference/boxes.html) is the same as in Racket. <br> <br>
 &emsp; &emsp; |  (setbox _expr_ _expr_)        <br>
-```setbox``` resembles [```set-box!```](https://docs.racket-lang.org/reference/boxes.html) in Racket <br> <br> <br>
+```setbox``` resembles [```set-box!```](https://docs.racket-lang.org/reference/boxes.html) in Racket. <br> <br> <br>
