@@ -123,8 +123,8 @@
           (define result_arg (interp arg-exp cl-env cl-store))
           (define nl (length (result-newstore result_arg)))
           ;; Note here a rather easy implementation of adding new elements into the store is adopted,
-          ;; that we simply insert it to the end of the current store. This could make the store
-          ;; grow to be unnecessarily long over time, and thus not space efficient.
+          ;; that we simply insert it to the head (the largest address) of the current store. This 
+          ;; could make the store grow to be unnecessarily long over time, and thus not space & time efficient.
           (define ne (cons (sub v nl) cl-env))                     
           (interp bdy ne (cons (result-val result_arg) (result-newstore result_arg)))])]
     [(bin op x y) 
