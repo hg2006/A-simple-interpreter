@@ -1,10 +1,10 @@
 # An intepreter for Faux Racket, W23 ,CS 146
 
 ## The interpreter and Faux Racket
-This interpreter was done as assignment questions of CS 146, W23 offering, instructed by Brad Lushman, at the University of Waterloo. Relevant assignments are [Q5: Recursion](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/1#issue-1687567584), [Q6: Mutation](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/2#issue-1687569446), [Q7: Boxes](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/3#issue-1687569608).
+This interpreter was done as three consecutive assignment questions of CS 146, W23 offering, instructed by Brad Lushman, at the University of Waterloo. Relevant assignments are [Q5: Recursion](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/1#issue-1687567584), [Q6: Mutation](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/2#issue-1687569446), [Q7: Boxes](https://github.com/hg2006/An-intepreter-for-Faux-Racket-W23-CS-146/issues/3#issue-1687569608).
 <br>
 <br>
-For simplicity, the interpreter was implemented in Racket, and aiming at interpreting a tiny subset of the programming language Racket, we will refer to this language as "Faux Racket".
+For simplicity, the interpreter was implemented in Racket, and aiming at interpreting a small subset of Racket itself, we will refer to this subset of Racket as "Faux Racket".
 <br>
 <br>
 This interpreter __is not reponsible for error handling, user must ensure the Faux Racket progoram being interpreted is syntatically valid.__
@@ -13,7 +13,7 @@ This interpreter __is not reponsible for error handling, user must ensure the Fa
 
 ## Abstract Syntax Tree of Faux Racket
 The Abstract Syntax Tree (presented in Haskell grammar) for Faux Racket below is provided by CS 146 instructor team on assignment page.               <br> <br>
-_expr_ =  num                                                                                                                                              <br><br>
+```_expr_``` =  ```num```                                                                                                                                              <br><br>
 &emsp; &emsp; |  var                                                                                                                                       <br><br>
 &emsp; &emsp; |  (+ _expr_ _expr_)                                                                                                                         <br><br>
 &emsp; &emsp; |  (* _expr_ _expr_)                                                                                                                         <br><br>
