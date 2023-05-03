@@ -3,9 +3,13 @@
 (require test-engine/racket-tests)
 
 
-;; ------------------------- A bit more to notice ---------------------------------------------------
+;; ------------------------- At the Beginning -------------------------------------------------------
 
-;; This project is available on Github: https://github.com/hg2006/A-simple-interpreter
+;; This project is available on GitHub: https://github.com/hg2006/A-simple-interpreter
+
+;; This is an interpreter for a small subset of the language racket (we will refer to it as Faux
+;; Racket). For the grammar of Faux Racket, please refer to the Abstract Syntax Tree presented
+;; in the README file.
 
 ;; To directly obtain the actual result of interpretation an expr, one should use the
 ;; following template (since interpret returns a result that is a struct):
@@ -16,7 +20,6 @@
 ;; program functions correctly, please put empty or '() for both.
 
 ;; Several examples of interpreting are provided at the end in the form of check-expect
-
 
 ;; -------------------- Useful AST structures for parsing -------------------------------------------
 
